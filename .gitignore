@@ -1,0 +1,11 @@
+cache
+live-image-amd64.*
+chroot.*
+chroot
+binary
+build.log
+.build
+config/bootstrap
+config/common
+config/source
+binary.*
