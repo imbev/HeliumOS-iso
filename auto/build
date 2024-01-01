@@ -3,3 +3,5 @@
 set -e
 
 lb build noauto "${@}" 2>&1 | tee build.log
+
+mv live-image-amd64.hybrid.iso custom-debian-amd64.iso

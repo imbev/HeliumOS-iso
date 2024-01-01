@@ -9,3 +9,4 @@ config/bootstrap
 config/common
 config/source
 binary.*
+*.iso
