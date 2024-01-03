@@ -2,5 +2,3 @@
 
 apt-get remove -y \
     plymouth
-
-passwd -d root
