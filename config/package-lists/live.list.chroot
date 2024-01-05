@@ -6,5 +6,7 @@ systemd-sysv
 kde-plasma-desktop
 plasma-discover-backend-flatpak
 ca-certificates
+
 pgp-key-heliumos
 calamares-settings-heliumos
+bootloader-themes-heliumos
