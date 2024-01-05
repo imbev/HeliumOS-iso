@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
 apt-get remove -y \
-    plymouth
+	plymouth \
+	desktop-base \

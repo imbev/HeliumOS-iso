@@ -4,7 +4,7 @@ live-config-systemd
 systemd-sysv
 
 kde-plasma-desktop
-calamares-settings-debian
 plasma-discover-backend-flatpak
 ca-certificates
 pgp-key-heliumos
+calamares-settings-heliumos

@@ -7,5 +7,6 @@ lb config noauto \
 	--archive-areas 'main contrib non-free non-free-firmware' \
 	--distribution 'bookworm' \
 	--linux-flavours 'amd64' \
+	--bootloaders "grub-pc,grub-efi" \
 	--source 'false' \
 	"${@}"
