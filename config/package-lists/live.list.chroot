@@ -9,4 +9,5 @@ ca-certificates
 
 pgp-key-heliumos
 calamares-settings-heliumos
-bootloader-themes-heliumos
+bootloader-config-heliumos
+base-files-heliumos
