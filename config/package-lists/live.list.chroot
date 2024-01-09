@@ -3,13 +3,17 @@ live-config
 live-config-systemd
 systemd-sysv
 
+
+pgp-key-heliumos
+calamares-settings-heliumos
+bootloader-config-heliumos
+base-files-heliumos
+plasma-discover-heliumos
+
+
 kde-plasma-desktop
 plasma-discover-backend-flatpak
 ca-certificates
 synaptic
 timeshift
 
-pgp-key-heliumos
-calamares-settings-heliumos
-bootloader-config-heliumos
-base-files-heliumos
