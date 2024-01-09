@@ -1,0 +1,2 @@
+[Service]
+ExecStart=/bin/sh -c 'pkexec calamares'
