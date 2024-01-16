@@ -5,4 +5,13 @@ apt-get update
 
 passwd -d user
 
-touch /home/user/.config/powermanagementprofilesrc
+cat > /home/user/.config/powermanagementprofilesrc << EOF
+[AC]
+icon=battery-charging
+
+[Battery]
+icon=battery-060
+
+[LowBattery]
+icon=battery-low
+EOF
