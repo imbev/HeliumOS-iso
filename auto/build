@@ -2,7 +2,7 @@
 
 set -e
 
-export OS_VERSION="12-alpha"
+export OS_VERSION="1.0-pre"
 export ARCH="amd64"
 
 lb build noauto "${@}" 2>&1 | tee build.log
