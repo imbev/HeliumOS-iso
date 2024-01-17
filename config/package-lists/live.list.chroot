@@ -16,4 +16,7 @@ plasma-discover-backend-flatpak
 ca-certificates
 synaptic
 timeshift
+print-manager
+ufw
+plasma-firewall
 
