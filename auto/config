@@ -8,5 +8,7 @@ lb config noauto \
 	--distribution 'bookworm' \
 	--linux-flavours 'amd64' \
 	--bootloaders "grub-pc,grub-efi" \
+	--iso-application 'HeliumOS Live Installer' \
+	--iso-publisher 'HeliumOS <admin@heliumos.org>' \
 	--source 'false' \
 	"${@}"

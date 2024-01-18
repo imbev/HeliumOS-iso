@@ -15,3 +15,5 @@ icon=battery-060
 [LowBattery]
 icon=battery-low
 EOF
+
+kwriteconfig5 --file ~/.config/kscreenlockerrc --group Daemon --key Autolock false

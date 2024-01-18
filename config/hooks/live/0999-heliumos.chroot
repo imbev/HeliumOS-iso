@@ -4,7 +4,8 @@ apt-get remove -y \
 	plymouth \
 	desktop-base \
 	plasma-discover \
-	konqueror
+	konqueror \
+	kde-config-updates
 
 apt-get install -y curl
 curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg

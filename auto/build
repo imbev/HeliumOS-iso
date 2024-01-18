@@ -7,4 +7,4 @@ export ARCH="amd64"
 
 lb build noauto "${@}" 2>&1 | tee build.log
 
-mv live-image-amd64.hybrid.iso HeliumOS-${OS_VERSION}-${ARCH}.iso
+mv live-image-amd64.hybrid.iso HeliumOS-Live-Installer-${OS_VERSION}-${ARCH}.iso
