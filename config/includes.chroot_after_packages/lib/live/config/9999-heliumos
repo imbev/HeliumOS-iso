@@ -16,4 +16,10 @@ icon=battery-060
 icon=battery-low
 EOF
 
-kwriteconfig5 --file ~/.config/kscreenlockerrc --group Daemon --key Autolock false
+cat > /home/user/.config/kscreenlockerrc << EOF
+[Daemon]
+Autolock=false
+LockOnResume=false
+EOF
+
+cp -r /etc/skel/* /home/user/
