@@ -22,4 +22,6 @@ Autolock=false
 LockOnResume=false
 EOF
 
+rm -f /home/user/.config/plasma-org.kde.plasma.desktop-appletsrc
+
 cp -r /etc/skel/* /home/user/
