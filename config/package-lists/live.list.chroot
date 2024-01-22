@@ -21,4 +21,5 @@ ufw
 plasma-firewall
 kde-spectacle
 distrobox
+kde-config-flatpak
 
