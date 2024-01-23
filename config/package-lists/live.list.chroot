@@ -9,6 +9,7 @@ calamares-settings-heliumos
 bootloader-config-heliumos
 base-files-heliumos
 plasma-discover-heliumos
+firstlogin-heliumos
 
 
 kde-plasma-desktop
