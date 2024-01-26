@@ -22,6 +22,10 @@ Autolock=false
 LockOnResume=false
 EOF
 
-rm -f /home/user/.config/plasma-org.kde.plasma.desktop-appletsrc
+mkdir -p /home/user/.config/HeliumOS/FirstLogin
+cat > /home/user/.config/HeliumOS/FirstLogin/FirstLogin.toml << EOF
+install_apps = false
+set_launcher_icon = true
+EOF
 
 cp -r /etc/skel/* /home/user/
