@@ -5,7 +5,8 @@ apt-get remove -y \
 	desktop-base \
 	plasma-discover \
 	konqueror \
-	kde-config-updates
+	kde-config-updates \
+	zutty
 
 apt-get install -y curl
 curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
