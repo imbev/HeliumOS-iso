@@ -10,6 +10,7 @@ bootloader-config-heliumos
 base-files-heliumos
 plasma-discover-heliumos
 firstlogin-heliumos
+updatenotifier-heliumos
 
 
 kde-plasma-desktop
@@ -23,4 +24,5 @@ plasma-firewall
 kde-spectacle
 distrobox
 kde-config-flatpak
+apt-config-auto-update
 
