@@ -4,7 +4,6 @@ live-config-systemd
 systemd-sysv
 
 
-repository-heliumos
 calamares-settings-heliumos
 bootloader-config-heliumos
 base-files-heliumos
