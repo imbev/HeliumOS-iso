@@ -6,9 +6,13 @@ lb config noauto \
 	--architectures 'amd64' \
 	--archive-areas 'main contrib non-free non-free-firmware' \
 	--distribution 'bookworm' \
+	--apt-source-archives false \
+	--backports true \
 	--linux-flavours 'amd64' \
 	--bootloaders "grub-pc,grub-efi" \
 	--iso-application 'HeliumOS Live Installer' \
 	--iso-publisher 'HeliumOS <admin@heliumos.org>' \
+	--hdd-label 'HeliumOS-Live-Installer' \
+	--iso-volume 'HeliumOS-Live-Installer' \
 	--source 'false' \
 	"${@}"
