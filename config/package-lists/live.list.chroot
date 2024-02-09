@@ -24,4 +24,6 @@ kde-spectacle
 distrobox
 kde-config-flatpak
 apt-config-auto-update
+qapt-deb-installer
+firmware-misc-nonfree
 
