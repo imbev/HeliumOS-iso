@@ -12,6 +12,8 @@ firstlogin-heliumos
 updatenotifier-heliumos
 
 
+linux-image-amd64/stable-backports
+linux-headers-amd64/stable-backports
 kde-plasma-desktop
 plasma-discover-backend-flatpak
 ca-certificates
